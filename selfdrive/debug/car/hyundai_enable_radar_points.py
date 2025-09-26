@@ -52,6 +52,10 @@ SUPPORTED_FW_VERSIONS = {
   b"LX2_ SCC FHCUP      1.00 1.00 99110-S8110!\x04\x05\x17\x01    ": ConfigValues(
     default_config=b"\x00\x00\x00\x01\x00\x00",
     tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
+  # 2023 SANTA FE TM FL
+  b"TM__ SCC FHCUP      1.00 1.00 99110-S1500 \x04!\x15\x07    ": ConfigValues(
+    default_config=b"\x00\x00\x00\x01\x00\x00",
+    tracks_enabled=b"\x00\x00\x00\x01\x00\x01"),
   # 2020 SANTA FE
   b"TM__ SCC F-CUP      1.00 1.03 99110-S2000\x19\x050\x13'    ": ConfigValues(
     default_config=b"\x00\x00\x00\x01\x00\x00",
